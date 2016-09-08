@@ -1,0 +1,159 @@
+.features {
+    border-bottom: 1px solid #d3d3d3;
+    display: inline-block;
+    min-height: 50px;
+    text-align: right;
+    width: 100%;
+}
+
+.inputsearch {
+    border: 1px solid #a9a9a9;
+    border-radius: 5px;
+    padding: 10px 5px;
+}
+
+.buttoncss {
+    border-radius: 5px;
+    padding: 8px 5px;
+    width: 10%;
+    cursor: pointer;
+}
+
+.searchbutton {
+    background-color: #77a5ec;
+    border: 2px solid #598dce;
+}
+
+.addbutton {
+    background-color: #93c47d;
+    border: 2px solid #93c47d;
+}
+
+.removebutton {
+    background-color: #cc0000;
+    border: 2px solid #cc0000;
+}
+
+.itemlist {
+    display: inline-block;
+    width: 100%;
+}
+
+.row{
+    width: 100%;
+}
+
+.col-sm1{
+    width: 2.5%;
+    float: left;
+}
+.col-sm2{
+    width: 4%;
+    float: left;
+}
+
+.col-sm4{
+    width: 25%;
+    float: left;
+}
+
+.col-sm6{
+    width: 50%;
+    float: left;
+}
+
+.col-sm8{
+    width: 90%;
+    float: left;
+}
+
+p {
+    margin: 0;
+    padding: 0 0 0 12px;
+    text-align: left;
+}
+
+.blockcss {
+    border-bottom: 1px solid #1BA1DB;
+    display: inline-block;
+    margin-top: 15px;
+    padding-bottom: 20px;
+    text-align: center;
+}
+
+.checkall {
+    border-bottom: 1px solid #d3d3d3;
+    padding: 15px 5px;
+}
+
+.popup {
+    width:100%;
+    height:100%;
+    display:none;
+    position:fixed;
+    top:0px;
+    left:0px;
+    background:rgba(0,0,0,0.75);
+}
+
+
+.popup-inner {
+    max-width:700px;
+    width:90%;
+    padding:40px;
+    position:absolute;
+    top:50%;
+    left:50%;
+    -webkit-transform:translate(-50%, -50%);
+    transform:translate(-50%, -50%);
+    box-shadow:0px 2px 6px rgba(0,0,0,1);
+    border-radius:3px;
+    background:#fff;
+}
+
+
+.popup-close {
+    width:30px;
+    height:30px;
+    padding-top:4px;
+    display:inline-block;
+    position:absolute;
+    top:0px;
+    right:0px;
+    transition:ease 0.25s all;
+    -webkit-transform:translate(50%, -50%);
+    transform:translate(50%, -50%);
+    border-radius:1000px;
+    background:rgba(0,0,0,0.8);
+    font-family:Arial, Sans-Serif;
+    font-size:20px;
+    text-align:center;
+    line-height:100%;
+    color:#fff;
+}
+
+.popup-close:hover {
+    -webkit-transform:translate(50%, -50%) rotate(180deg);
+    transform:translate(50%, -50%) rotate(180deg);
+    background:rgba(0,0,0,1);
+    text-decoration:none;
+}
+
+.addlist {
+  border: 1px solid #d3d3d3;
+  border-radius: 5px;
+  float: right;
+  padding: 5px;
+  width: 20% !important;
+}
+
+.popup-inner > input {
+  width: 100%;
+}
+
+textarea{
+    width: 100%;
+    margin-bottom: 10px;
+    margin-top: 10px;
+    border: 1px solid #d3d3d3;
+}
